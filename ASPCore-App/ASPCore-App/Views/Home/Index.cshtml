@@ -1,8 +1,53 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model AlumnoModel
+
+@{
+    ViewData["Title"] = "PAGINA DE ALUMNOS";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">BIENVENIDO</h1>
+
+    </h1>
+    <table border="5" cellpadding="5" align="center">
+        <tbody>
+            <tr>
+                <td colspan="8" align="center" bgcolor="#A9A9A9"><strong>Registros</strong></td>
+            </tr>
+            <tr bgcolor="EFEFEF">
+                <td>Numero De Control</td> @Model.NC
+                <td>Numero De Control</td> @Model.NC_2
+                <td>Numero De Control</td> @Model.NC_3
+                <td>Numero De Control</td> @Model.NC_4
+            </tr>
+            <tr bgcolor="EFEFEF">
+                <td>Nombre: </td> @Model.Nombre
+                <td>Nombre: </td> @Model.Nombre_2
+                <td>Nombre: </td> @Model.Nombre_3
+                <td>Nombre: </td> @Model.Nombre_4
+            </tr>
+            <tr bgcolor="EFEFEF">
+                <td>App: </td> @Model.App
+                <td>App: </td> @Model.App_2
+                <td>App: </td> @Model.App_3
+                <td>App: </td> @Model.App_4
+            </tr>
+            <tr bgcolor="EFEFEF">
+                <td>Apm: </td> @Model.Apm
+                <td>Apm: </td> @Model.Apm_2
+                <td>Apm: </td> @Model.App_4
+            </tr>
+            <tr bgcolor="EFEFEF">
+                <td>Carrera: </td> @Model.Carrera
+                <td>Carrera: </td> @Model.Carrera_2
+                <td>Carrera: </td> @Model.Carrera_3
+                <td>Carrera: </td> @Model.Carrera_4
+            </tr>
+            <tr bgcolor="EFEFEF">
+                <td>Promedio: </td> @Model.Promedio
+                <td>Promedio: </td> @Model.Promedio_2
+                <td>Promedio: </td> @Model.Promedio_3
+                <td>Promedio: </td> @Model.Promedio_4
+            </tr>
+    </table>
+
 </div>
