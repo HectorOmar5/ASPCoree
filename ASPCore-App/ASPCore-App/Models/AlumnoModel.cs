@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ASPCore_App.Controllers
+namespace ASPCore_App.Models
 {
     public class AlumnoModel
-    { 
+    {
         public string Nombre { get; set; }
         public string App { get; set; }
         public string Apm { get; set; }
